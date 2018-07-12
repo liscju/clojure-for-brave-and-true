@@ -9,7 +9,7 @@
 (def c-str (comp :strength :attributes))
 (def c-dex (comp :dexterity :attributes))
 
-(def attr
+(defn attr
   [a]
   (comp a :attributes))
 
